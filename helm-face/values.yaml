@@ -7,7 +7,7 @@ replicaCount: 1
 image:
   repository: shashikanthvh/nginx
   tag: 1.2
-  pullPolicy: IfNotPresent
+  pullPolicy: Always
 
 service:
   type: ClusterIP
